@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro';
+}
+.header{
+    height: 80px;
+    background-color: rgb(255,255,255);
+    position: relative;
+}
+.header .left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+
+}
+.logo img{
+    margin:12px auto;
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+.menu{ width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;}
+.menu ul{
+        list-style-type: none;
+    }
+.menu ul li{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 30px 15px;
+    }
+.header .right{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0; 
+        display: inline-block;
+    }
+.photo-logo{
+    position: absolute;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 30px;
+    margin-bottom: 5%;
+}
+.photo-logo li{
+    margin:0 25px;
+}
+.icons{
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+    padding: 35px;
+    margin-bottom: 5%;
+}
+.icons p {
+    margin:0 20px;
+}
+.icons .btn-login{
+    margin: -15px auto;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color:rgb(4,170,109);
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.section1{
+    height: 550px;
+    background-color: #282a35;
+position: relative;
+}
+.section1 .left{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(40,42,57);
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+.title{font-size: 150px;
+font-weight: bold;
+color: white;}
+.desc{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.btn1 , .btn2{
+    width: 200px;
+    margin:20px auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.btn1 , .btn3{background-color: rgb(4,170,109);
+color: white;}
+.btn2{
+    background-color: white;
+    color: black;
+}
+
+.section1 .right{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.container{
+    width: 580px;
+    height: 400px;
+    background-color: rgb(232,233,236);
+    margin:70px auto;
+    border-radius: 7px;
+    padding: 25px 15px;
+}
+.code{
+    width: 540px;
+    height: 240px;
+    background-color: white;
+    margin:15px auto;
+    border-left: 5px solid rgb(4,170,109);
+    padding: 10px;
+}
+.btn3{
+    width: 200px;
+    margin: 10px auto;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: -150px;
+    margin-right: 400px;
+    text-align: center;
+}
+
