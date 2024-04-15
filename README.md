@@ -26,5 +26,5 @@
   
   ---
 
-> Try to practice Position html and css =>
+> W3 school =>
   <a href="http://127.0.0.1:5501/w3school-2022/index.html"> Live </a>
